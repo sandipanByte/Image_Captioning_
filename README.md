@@ -1,4 +1,32 @@
-# 2. Technologies Used
+ 1. # WHAT TO BUILD
+                 ┌──────────────────┐
+                 │     CAMERA /     │
+                 │   IMAGE UPLOAD   |
+                 └────────┬─────────┘
+                          ↓
+                 ┌──────────────────┐
+                 │ Image Processing │
+                 │ Resize / Normalize
+                 └────────┬─────────┘
+                          ↓
+              ┌─────────────────────────┐
+              │ Vision-Language Model  │
+              │       BLIP / MedBLIP   │
+              └────────────┬────────────┘
+                           ↓
+                    Generated Caption
+                           ↓
+              ┌─────────────────────────┐
+              │ Caption post-processing │
+              └────────────┬────────────┘
+                           ↓
+                 ┌──────────────────┐
+                 │  Text-to-Speech  │
+                 │      TTS         │
+                 └────────┬─────────┘
+                          ↓
+                    🔊 SPEAKER#
+    # 2. Technologies Used
 
 | Technology                    | Purpose                                        |
 | ----------------------------- | ---------------------------------------------- |
